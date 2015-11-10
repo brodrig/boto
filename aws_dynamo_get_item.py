@@ -6,8 +6,8 @@ table = dynamodb.Table('users')
 
 response = table.get_item(
     Key={
-        'username': 'cosmo',
-        'last_name': 'ROdriguez'
+        'username': 'janedoe',
+        'last_name': 'Doe'
     }
 )
 
